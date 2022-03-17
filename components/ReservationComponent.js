@@ -131,7 +131,7 @@ class Reservation extends Component {
                                     Alert.alert(
                                         'Begin Search?',
                                         `Number of Campers: ${this.state.campers} Hike In: ${this.state.hikeIn} Date: ${this.state.date} `,
-                                        +
+                                        
                                         [
                                             {
                                                 text: 'Cancel',
